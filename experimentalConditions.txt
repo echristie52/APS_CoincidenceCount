@@ -1,0 +1,10 @@
+This file is meant to be kept as notes on conditions of experiment that are vital to calculations.
+Record the filename range of numbers output by the XMAP.
+Record which channels were used (0-3), which was shorter, and the difference in optical lengths in meters.
+The value range of 22keV could also be kept here.
+
+Example:
+day1_run5, 0-7: channels 0 and 1 used, 0 was shorter by 0.10 meters
+
+
+
