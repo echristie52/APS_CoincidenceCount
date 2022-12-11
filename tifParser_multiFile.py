@@ -161,3 +161,5 @@ print("Overall Rate: " + str(totalCoincidences / totalTime))
 print()
 
 
+# Output totals to "coincidenceRates.txt"
+outputFilename = "concidenceRates.txt"
