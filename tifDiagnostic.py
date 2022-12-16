@@ -178,14 +178,14 @@ if plot_energy_distribution:
         energy = event[1]
         energyDistribution[ch].append(energy) #sorts evergy by ch
 
-    xlim = 1000 #change based on data
+    #xlim = 1000 #change based on data - uncomment to fix dimensions of plots
     for i in range(4):
         plt.subplot(5,1,i+1)
         plt.hist(energyDistribution[i])
-        plt.xlim(0,xlim)
+        #plt.xlim(0,xlim)
     plt.subplot(5,1,5)
     plt.hist(energyDistribution)
-    plt.xlim(0,xlim)
+    #plt.xlim(0,xlim)
     plt.legend()
     plt.show()
 
